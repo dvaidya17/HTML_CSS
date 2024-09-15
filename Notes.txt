@@ -1,0 +1,19 @@
+@ By default paragraphs in HTML has margin at the top as well as bottom.
+@ By default HTML uses Times New roman font.
+@ Any colour can be obtained from red, green and blue. rgb in CSS stands for red, green, blue.
+@ a in rgba stands for opacity.
+@ Any special character in HTML should be treated as HTML entity. It has special naming in hex which should be followed.
+@ class name selector  > HTML element name specificity (This is part of CSS specificity). 
+@ In HTML structure, <!DOCTYPE html> is not a HTML element. It's a statement which tells the browser to use latest verion of HTML. If we don't write this line then browser will use older version of HTML which won't support some features.
+@ Genral HTML structure:-
+<!DOCTYPE htm>
+<html>
+  <head> </head>
+  <body> </body>
+</html>
+
+Here, all the things which are displayed on the webpage will come under body and rest everything will come under head.
+<title> </title> :- Any thing return between this would be the name of the tab of the web page.
+
+@ <link> -> void HTML entity i.e you don't have to close it.
+@ href -> path (may it be url, file path etc)

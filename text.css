@@ -1,0 +1,56 @@
+
+
+  p{
+    font-family: Arial;
+  }
+
+ .heading{
+   font-weight: bold;
+   /*font-family: Arial;*/
+   font-size: 18px;
+   width: 300px;
+   margin-bottom: 0px;
+ }
+
+ .video-info{
+  /*font-family: Arial;*/
+  color: grey;
+  font-size: 14px;
+  margin-top: 5px;
+ }
+
+
+ .author{
+  /*font-family: Arial;*/
+  color: grey;
+  font-size: 14px;
+  margin-top: 20px;
+ }
+
+ .description{
+  /*font-family: Arial;*/
+  color: grey;
+  font-size: 14px;
+  margin-top: 20px;
+  width: 280px;
+  margin-bottom: 150px;
+ }
+
+ .apple{
+  color: grey;
+  text-align: center;
+  background-color: red;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+ }
+
+ .a1{
+  color: white;
+ }
+
+ /*.a1:hover{
+  text-decoration: underline;
+  cursor: pointer;
+ }
+ */

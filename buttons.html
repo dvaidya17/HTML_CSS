@@ -1,0 +1,59 @@
+<style>
+  .subscribe-button{
+       background-color: rgb(266,0,0);
+       color: white;
+       border-color: rgb(266, 0, 0);
+       border-radius: 3px;
+       height: 36px;
+       width: 100px;
+       cursor: pointer;
+       margin-right: 8px;
+  }
+
+  .subscribe-button:hover{
+     opacity: 0.7;
+  }
+
+  .subscribe-button:active{
+     opacity: 0.4;
+  }
+
+  .join-button{
+       background-color:white;
+       color: rgb(41, 118, 211);
+       border-color: rgb(41, 118, 211);
+       border-radius: 3px;
+       border-style: solid;
+       height: 36px;
+       width: 65px;
+       cursor: pointer;
+       margin-right: 8px;
+       transition: color 1s, background-color 1s;  /* In transition we can have as many values as we need seprated by comma operator */
+  }
+
+  .join-button:hover{
+     color: white;
+     background-color: rgb(41, 118, 211);
+  }
+   
+  .tweet-button{
+       background-color:rgb(66, 164, 245);
+       color: white;
+       border-color: rgb(66, 164, 245);
+       border-radius: 20px;
+       border-style: solid;
+       font-size: 15px;
+       font-weight: bold;
+       height: 36px;
+       width: 70px;
+       cursor: pointer;
+       box-shadow: 5px, 5px, 10px, rgba(0,0,0,0.15);   /* It takes 4 parameters:- horizontal length, vertical length, blur, colour */
+       /* Here a in rgba stands for opacity. Ideally shadow has an opacity of 0.15 */
+  }
+</style>
+
+<button class="subscribe-button"> SUBSCRIBE </button>
+
+<button class="join-button"> JOIN </button>
+
+<button class="tweet-button"> Tweet </button>
