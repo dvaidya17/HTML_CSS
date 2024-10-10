@@ -27,4 +27,4 @@ Here, all the things which are displayed on the webpage will come under body and
  @ paragraph by default comes with a margin on top as well as bottom.
  @ One of the important display property of CSS is breaking down the design in horozontal and vertical components.
  @ CSS Grid is the best option in designing production level webpages by breaking down the design in horizontal and vertical components.
-  
+ @ Images by default take up entire coloumn size. To avoid these we need to mention width = 100% explicitly. 
